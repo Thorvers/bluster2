@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="bluster">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="bluster.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bluster2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
